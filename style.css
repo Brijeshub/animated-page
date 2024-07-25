@@ -52,6 +52,13 @@ html,body{
   height: 60px;
   /* color: rgb(215, 213, 163); */
 }
+#logo{
+    font-size: 200%;
+    font-weight: 1000;
+    font-style: italic;
+    /* background: #000; */
+    border-radius: 100%;
+   }
 #nleft, #nright{
     display: flex;
     align-items: center;
@@ -139,4 +146,38 @@ html,body{
     color: #fff;
     margin-bottom:100px;
 }
+@media screen and (max-width:750px) {
+   #main{
+    display: flex;
+    flex-direction: column;
+   }
+   #logo{
+    font-size: 200%;
+    font-weight: 1000;
+    font-style: italic;
+    /* background: #000; */
+    border-radius: 100%;
+   }
+   
+    #back{
+        background-size: cover;
+        background-position: center;
+        
+    }
+    #heroleft{
+        margin-top: 40%;
+    }
+    #heroleft>.elem > h1{
+        font-size: 300%;
+    }
+    #heroleft>button{
+        font-size: 150%;
+    }
+    #heroright{
+        margin-top: 20%;
+        box-sizing: border-box;
+        height: 80vh;
+        width: 25vw;
 
+    }
+}
