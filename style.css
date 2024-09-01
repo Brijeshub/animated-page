@@ -52,12 +52,9 @@ html,body{
   height: 60px;
   /* color: rgb(215, 213, 163); */
 }
-#logo{
-    font-size: 200%;
-    font-weight: 1000;
-    font-style: italic;
-    /* background: #000; */
-    border-radius: 100%;
+#logo>img{
+    height: 130px;
+    width: 150px;
    }
 #nleft, #nright{
     display: flex;
